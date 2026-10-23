@@ -5,9 +5,9 @@ use native_dialog::{ MessageDialogBuilder, MessageLevel };
 use tauri::{ async_runtime::spawn, Manager };
 use version_compare::{ compare_to, Cmp };
 
-const REPO_OWNER: &'static str = "grand-hawk";
+const REPO_OWNER: &'static str = "desmont002";
 const REPO_NAME: &'static str = "artillery-calculator";
-const REMOTE_URL: &'static str = "https://artillery-calculator.com";
+const REMOTE_URL: &'static str = "https://artillery-ca.onrender.com";
 const DOWNLOAD_URL: &'static str = "https://download.artillery-calculator.com";
 
 async fn check_for_updates(current_version: String) {
