@@ -17,7 +17,7 @@
   },
   "productName": "mtc-artillery-overlay",
   "mainBinaryName": "mtc-artillery-overlay",
-  "version": "0.2.8",
+  "version": "0.3.0",
   "identifier": "com.artillery-calculator.overlay",
   "plugins": {},
   "app": {
@@ -51,7 +51,7 @@
           "local": true,
           "windows": ["main"],
           "remote": {
-            "urls": ["https://artillery-calculator.com"]
+            "urls": ["https://artillery-ca.onrender.com"]
           },
           "permissions": [
             "core:webview:default",
